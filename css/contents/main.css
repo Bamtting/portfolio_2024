@@ -1,0 +1,16 @@
+.main_visual{
+    width: 100%;
+    background: url(../../../../img/main_visual.png) no-repeat center /cover;                         
+    height: 980px;
+}
+.main_text{
+    padding: 0 157px;
+    padding-top: 678px;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1.1111;
+    color: #fff;
+}
+.main_text p span{
+    color: #ed8518;
+}

@@ -1,0 +1,92 @@
+.header{
+    position: relative;
+}
+.header_box{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 0 60px;
+    width: 100%;
+    line-height: 80px;
+    color: #fff;
+}
+.header_box .logo{
+    display: flex;
+    z-index: 10;
+}
+.header_gnb{
+    display: flex;
+    font-size: 18px;
+    font-weight: 900;
+}
+.header_gnb li+li{
+    margin-left: 67px;
+}
+.header_right{
+    display: flex;
+}
+.header_right .language{
+    display: flex;
+    margin-right: 30px;
+}
+.header_right .language li+li{
+    margin-left: 12px;
+}
+.header_right .language li .on{
+    opacity: 0.2;
+}
+.header_right .ham_bar {
+    display: flex;
+    align-items: center;
+}
+.header_right .ham_bar a{
+    display: flex;
+    margin-left: 8px;
+}
+.header_right .ham_btn{
+    z-index: 10;
+}
+.header_right .ham_btn a{
+    display: none;
+}
+.header_right .ham_btn a.on{
+    display: flex;
+}
+
+.quick_menu{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}
+.quick_menu ul{
+    margin-bottom: 60px;
+}
+.quick_menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+.quick_menu li{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #222222;
+}
+.quick_menu li.on{
+    background-color: #ed8518;
+}
+.quick_menu li+li{
+    margin-top: 10px;
+}
+.ham_menu{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
