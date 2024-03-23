@@ -1,7 +1,3 @@
-/* base */
-@import url(./base/reset.css);
-@import url(./base/root.css);
-@import url(./base/responsive.css);
 
 /* components */
 @import url(./components/form-control.css);
@@ -31,4 +27,9 @@
 @import url(./lib/aos.css);
 @import url(./lib/datepicker.min.css);
 @import url(./lib/slick.css);
-@import url(./lib/swiper.min.css);
+@import url(/css/lib/swiper.min.css);
+
+/* base */
+@import url(./base/reset.css);
+@import url(./base/root.css);
+@import url(./base/responsive.css);

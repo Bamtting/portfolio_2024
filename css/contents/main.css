@@ -1,7 +1,8 @@
-.inner{
-    max-width: 1200px;
-    margin: 0 auto;
+section{
+    height: 100vh;
+    scroll-behavior: smooth; /* 스크롤 부드럽게 이동 */
 }
+
 .main_visual{
     position: relative;
     width: 100%;
@@ -17,7 +18,14 @@
     max-width: 1200px;
     text-align: center;
 }
+.main_text_box p{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 4px 5px 5px rgba(87, 124, 147, 0.5);
+}
 .main_text_box h2{
+    margin-top: 20px;
     line-height: 1.4444;
     font-size: 52px;
     color: #f1f1f1;
@@ -25,27 +33,25 @@
 }
 .tit_box{
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 0;
     font-size: 40px;
     color: #ffffff;
 }
 /* about start */
+
 .about{
-    position: relative;
-}
-.about{
+position: relative;
 background-color: #000;
-height: 100vh;
 }
 .about_box{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .about_left{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
 }
 .about_left img{
     max-width: 400px;
@@ -57,7 +63,7 @@ height: 100vh;
     color: #fff;
 }
 .about_right h3{
-    font-size: 24px;
+    font-size: 36px;
 }
 .profile{
     margin-top: 20px;
@@ -66,21 +72,87 @@ height: 100vh;
     display: flex;
 }
 .profile li+li{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .profile li p{
     display: inline-block;
     width: 80px;
+    font-size: 18px;
     font-weight: 500;
+}
+.profile li span{
+    font-size: 18px;
 }
 
 .history_box{
     margin-top: 30px;
 }
+.histoy_list{
+    margin-top: 20px;
+}
 .histoy_list li{
     display: flex;
 }
+.histoy_list li+li{
+    margin-top: 20px;
+}
 .histoy_list li p{
     width: 80px;
+    font-size: 18px;
     font-weight: 500;
+}
+.histoy_list li span{
+    font-size: 18px;
+}
+.portfolio{
+    color: #fff;
+    background-color: #252525;
+}
+.portfolio_box{
+    display: flex;
+    align-items: center;
+}
+.portfolio_img_box{
+    max-width: 700px;
+}
+.portfolio_tit{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.portfolio_text_box h3{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio_text_box p.portfolio_info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.portfolio_text_box p.contribution{
+    margin-top: 30px;
+}
+.portfolio_text_box p{
+    font-weight: 500;
+}
+.portfolio_text_box p+p{
+    margin-top: 10px;
+}
+.portfolio_text_box p span{
+    font-weight: 700;
+}
+.portfolio_text_box .link{
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio_text_box .link a{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
 }

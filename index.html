@@ -8,6 +8,8 @@
     <!-- css -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- js -->
+    <script src="/js/lib/swiper.min.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -27,22 +29,23 @@
                 </div>
                 <div class="h_right">
                     <ul class="gnb">
-                        <li><a href="#!">HOME</a></li>
-                        <li><a href="#!">ABOUT</a></li>
-                        <li><a href="#!">PORTFOLIO</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
                     </ul>
                 </div>
             </div>
         </header><!-- header end -->
 
         <!-- main_visual -->
-        <div class="main_visual">
+        <div class="main_visual" id="home">
             <div class="main_text_box">
-                <h2>안녕하세요 ! 도전하는 웹 퍼블리셔 곽승민 입니다.</h2>
+                <p>WEB PULISHER</p>
+                <h2>안녕하세요 ! <br class="only_mo">도전하는 웹 퍼블리셔 곽승민 입니다.</h2>
             </div>
         </div>
         <!-- main_visual end -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="inner">
                 <div class="tit_box">
                         <h2 class="tit">
@@ -69,14 +72,73 @@
                             <ul class="histoy_list">
                                 <li><p>2016.02</p><span>대구서부공업고등학교 졸업</span></li>
                                 <li><p>2023.10</p><span>[KDT]기업 요구를 반영한 디지털 비즈니스 웹앱 (UX)디자인 & 개발자 양성 과정 수료</span></li>
-                                <li><p>2023.10</p><span>[KDT]기업 요구를 반영한 디지털 비즈니스 웹앱 (UX)디자인 & 개발자 양성 과정 수료</span></li>
+                                <li><p>2023.11</p><span>(주)유월커뮤니케이션 퍼블리셔팀 (재직중)</span></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="portfolio" id="portfolio">
+            <div class="tit_box">
+                <h2 class="tit">
+                    PORTFOLIO
+                </h2>
+            </div>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="inner">
+                       
+                    <div class="portfolio_box">
+                        
+                        <div class="portfolio_img_box">
+                            <img src="/img/portfolio.png" alt="포트폴리오1">
+                        </div>
+                        <div class="portfolio_text_box">
+                            <h3>에코랩 솔루션</h3>
+                            
+                            <p class="portfolio_info">창업 컨설팅 회사의 랜딩페이지를 제작했습니다.</p>
+                            <p class="contribution"><span>기여도 :</span> 퍼블리싱 100% (회사 제작)</p>
+                            <p class="day"><span>제작기간 : </span>8일</p>
+                            <p class="tool"><span>사용툴 :</span> HTML, CSS, JAVA SCRIPT, FTP, POTOSHOP</p>
+                            <div class="link">
+                                <a href="https://eco-labsolutions.com/" target="_blank">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="inner">
+                        
+                    <div class="portfolio_box">
+                        
+                        <div class="portfolio_img_box">
+                            <img src="/img/portfolio2.png" alt="포트폴리오2">
+                        </div>
+                        <div class="portfolio_text_box">
+                            <h3>한국냉동공조시공관리협회</h3>
+                            <p class="portfolio_info">한국냉동공조시공관리협회의 페이지를 제작하였습니다.</p>
+                            <p class="contribution"><span>기여도 :</span> 퍼블리싱 100% (회사 제작)</p>
+                            <p class="day"><span>제작기간 : </span>22일</p>
+                            <p class="tool"><span>사용툴 :</span> HTML, CSS, JAVA SCRIPT, FTP, POTOSHOP</p>
+                            <div class="link">
+                                <a href="http://kracma.kweca.or.kr/main/main.php" target="_blank">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section>
+        <footer class="footer">
+
+        </footer>
     </div><!-- wrap end -->
 </body>
-
+  
 </html>
