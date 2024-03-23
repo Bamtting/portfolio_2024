@@ -1,6 +1,7 @@
 /* base */
 @import url(./base/reset.css);
 @import url(./base/root.css);
+@import url(./base/responsive.css);
 
 /* components */
 @import url(./components/form-control.css);
@@ -20,7 +21,7 @@
 
 /* layout */
 @import url(./layout/footer.css);
-@import url(./layout/heeader.css);
+@import url(./layout/header.css);
 
 /* utilities */
 @import url(./utilities/coustom.css);
