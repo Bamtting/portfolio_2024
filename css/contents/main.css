@@ -6,7 +6,7 @@ section{
 .main_visual{
     position: relative;
     width: 100%;
-    background: url(/img/main_visual.png) no-repeat center /cover;                         
+    background: url(../../img/main_visual.png) no-repeat center /cover;                         
     height: 100vh;
 }
 .main_text_box{

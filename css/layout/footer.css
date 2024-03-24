@@ -30,7 +30,7 @@
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: url(/img/phone.png)no-repeat center/cover;
+    background: url(../../img/phone.png)no-repeat center/cover;
     
 }
 .footer_info p.address::after{
@@ -42,7 +42,7 @@
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: url(/img/marker.png)no-repeat center/cover;
+    background: url(../../img/marker.png)no-repeat center/cover;
 }
 .footer_info p.email::after{
     content: "";
@@ -53,7 +53,7 @@
     display: inline-block;
     width: 28px;
     height: 18px;
-    background: url(/img/email1.png)no-repeat center/cover;
+    background: url(../../img/email1.png)no-repeat center/cover;
 }
 .footer_about{
     text-align: center;
