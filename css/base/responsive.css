@@ -114,7 +114,8 @@
       .copyright{
         font-size: .7059rem;
       }
-      .footer_info p+p{
+      .footer_info .address,
+      .footer_info .email{
         margin-top: .8824rem;
       }
 }
