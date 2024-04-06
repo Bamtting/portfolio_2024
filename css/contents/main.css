@@ -1,6 +1,10 @@
+.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 section{
-    height: 919px;
-    scroll-behavior: smooth; /* 스크롤 부드럽게 이동 */
+    height: 100vh;
 }
 
 .main_visual{
@@ -105,6 +109,7 @@ background-color: #000;
     font-size: 18px;
 }
 .portfolio{
+    position: relative;
     color: #fff;
     background-color: #252525;
 }
@@ -161,4 +166,57 @@ background-color: #000;
     font-weight: 600;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
+}
+.portfolio_info_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.portfolio_info_box.on{
+    display: block;
+}
+.portfolio_info_top{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    background-color: #212121;
+    text-align: center;
+    line-height: 40px;
+}
+.portfolio_info_row{
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #212121;
+}
+.portfolio_info_row p{
+    line-height: 1.4444;
+}
+
+.portfolio_info_top .close{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.portfolio_info_top .tit{
+    font-size: 18px;
+    font-weight: 700;
 }
