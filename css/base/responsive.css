@@ -30,6 +30,7 @@
       }
       section{
         height: 100%;
+        padding:.5882rem 0;
       }
       .about_left img{
         width: 12.5rem;
@@ -118,4 +119,23 @@
       .footer_info .email{
         margin-top: .8824rem;
       }
+      .portfolio_info_top{
+        max-width: 19.4118rem;
+        line-height: 2.3529rem;
+      }
+      .portfolio_info_top .close{
+        width: .8824rem;
+        height: .8824rem;
+      }
+      .portfolio_info_top .tit{
+        font-size: .9412rem;
+      }
+      .portfolio_info_row{
+       
+        max-width: 19.4118rem;
+      }
+      .portfolio_info_row p{
+        font-size: .8235rem;
+      }
+
 }
