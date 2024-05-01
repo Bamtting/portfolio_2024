@@ -1,7 +1,9 @@
 .footer{
+    position: relative;
     padding: 20px 0;
     background: #252525;
     border-top: 1px solid #eee;
+    z-index: 1;
 }
 .footer_box{
     

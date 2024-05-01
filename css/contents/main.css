@@ -23,7 +23,7 @@ section{
     text-align: center;
 }
 .main_text_box p{
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     color: #fff;
     text-shadow: 4px 5px 5px rgba(87, 124, 147, 0.5);
@@ -45,7 +45,9 @@ section{
 
 .about{
 position: relative;
-background-color: #000;
+background-color: #252525;
+display: flex;
+align-items: center;
 }
 .about_box{
     display: flex;
@@ -110,6 +112,8 @@ background-color: #000;
 }
 .portfolio{
     position: relative;
+    display: flex;
+    align-items: center;
     color: #fff;
     background-color: #252525;
 }
@@ -166,6 +170,13 @@ background-color: #000;
     font-weight: 600;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
+}
+.portfolio_text_box .link a+a{
+    margin-left: 25px;
+}
+.portfolio_text_box .link a:hover{
+    background-color: #fff;
+    color: #252525;
 }
 .portfolio_info_box{
    position: absolute;

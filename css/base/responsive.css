@@ -9,9 +9,16 @@
         width: 1.875rem;
       }
       .header_box{
-        height: 3.75rem;
-        padding: 1.5625rem;
+        height: 2.9412rem;
       }
+      .h_right{
+        height: 2.9412rem;
+      }
+      .h_left{
+        top: .3529rem;
+        left: .8824rem;
+      }
+       
       .gnb li{
         font-size: .875rem;
       }
