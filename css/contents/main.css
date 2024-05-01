@@ -1,3 +1,4 @@
+
 .wrap{
     position: relative;
     width: 100%;
@@ -38,9 +39,11 @@ section{
 .tit_box{
     text-align: center;
     padding: 80px 0;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: 700;
     color: #ffffff;
 }
+
 /* about start */
 
 .about{
@@ -112,8 +115,6 @@ align-items: center;
 }
 .portfolio{
     position: relative;
-    display: flex;
-    align-items: center;
     color: #fff;
     background-color: #252525;
 }
